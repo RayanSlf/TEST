@@ -1,0 +1,733 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.logo{
+    width: 80px;
+    position: relative;
+}
+input{
+background-color: transparent;
+border: none;
+}
+
+.Sony{
+    position: relative;
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding-right: 40px;
+    padding-top: 10px;
+    height: 40px;
+    
+    
+}
+
+.navbar{
+    
+    position: sticky;
+    display: flex;
+    background-color: white;
+    width: 100%;
+    top: 0;   
+}
+
+.navbar:hover{
+
+}
+    
+    
+
+.navbar a{
+    list-style: none;
+    text-decoration: none;
+    color: black;
+    margin: 30px 20px 20px 5px;
+}
+
+.navbar a :hover{
+    color:  rgb(26, 137, 211);
+    transition: 0.6;
+}
+.btn{
+    background-color: white;
+    margin-right: 411px;
+}
+
+.btn1{
+    left: 400px;
+    position: relative;
+    background-color: rgb(59, 168, 241);
+    color: white;
+    margin: 25px;
+    padding: 3px 5px 5px;
+    border-radius: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color:  rgb(106, 178, 238);
+    color: white;
+    transition: 0.6ms;
+
+}
+
+.back{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+}
+
+.logopsn{
+    height: 60px;
+    width: 60px;
+    
+}
+
+.container{
+    height: 500px;
+}
+
+
+.backgroundd{
+    background: url("im/Background.jpg") no-repeat fixed;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    padding-bottom: 60px;
+}
+
+.psn{
+    color: white;
+    margin-left: 160px;
+    margin-top: 20px;
+    font-weight: 300;
+
+    
+}
+
+.Ppsn{
+    color: white;
+    margin-left: 160px;
+    margin-top: 20px;
+
+
+}
+
+.logopsn{
+    z-index: 100;
+    height: 60px;
+    width: 60px;
+    margin-left: 185px;
+    margin-top: 120px;
+
+    
+}
+
+.btn2 {
+    padding: 10px;
+    border-radius: 30px;
+    background-color: white;
+    border: solid 2px black;
+    text-align: center;
+    
+
+}
+
+.bord2{
+    padding: 2px;
+    width: fit-content;
+    margin-top: 20px;
+    margin-left: 160px;
+    border-radius: 30px;
+
+}
+
+.bord2:hover{
+    background-color: white;
+}
+
+
+
+.background2{
+    background-color: rgb(233, 233, 233);
+    padding-bottom: 80px;
+}
+
+.h3p{
+    text-align: center;
+    font-size: 30px;
+    padding-top: 70px;
+    font-weight: 250;
+}
+
+.p1{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 15px;
+    
+    
+}
+
+.p2{
+    text-align: center;
+    font-size: 12px;
+    padding-top: 15px;
+}
+
+.btn3{
+    font-weight: 550;
+    padding: 9px;
+    border-radius: 20px; 
+    text-align: center;
+    color: rgb(37, 150, 255);
+    background-color: rgb(216, 216, 216);
+    border: solid 2px rgb(233, 233, 233);
+
+
+}
+
+.bord3{
+    margin-top: 10px;
+    margin-left: 515px;
+    border-radius: 20px; 
+    padding: 2px;
+    width: fit-content;
+    
+
+}
+
+.bord3:hover{
+    background-color: rgb(216, 216, 216);
+}
+
+
+.btn4{
+    border: solid 2px rgb(233, 233, 233);
+    font-weight: 550;
+    padding: 8px;
+    border-radius: 20px; 
+    text-align: center;
+    background-color: rgb(23, 94, 247);
+    color: white;
+
+}
+
+.bord4{
+    padding: 2px;
+    width: fit-content;
+    margin-left: 570px;
+    margin-top: 5px;
+    border-radius: 22px;
+}
+
+.bord4:hover{
+    background-color: rgb(23, 94, 247);
+}
+
+.h33{
+    padding-top: 40px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 30px;
+}
+
+.p3{
+    padding-top: 18px;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    
+}
+
+.section{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 100px 50px ;
+}
+
+.left{
+    background-color:  rgb(216, 216, 216);
+    margin-left: 100px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+.right{
+    background-color:  rgb(216, 216, 216);
+    
+    padding: 20px;
+    text-align: center;
+    
+
+}
+.psstore{
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.psstoreh4{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px;
+}
+
+.psstorep{
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.psstoreinp{
+    background-color: rgb(23, 94, 247);
+    border: solid 2px rgb(216, 216, 216);
+    color: white;
+    border-radius: 25px;
+    padding: 8px;
+    
+}
+
+.btn5{
+    border-radius: 25px;
+    width: fit-content;
+    padding: 2px;
+    margin: 15px 129px;
+    
+}
+
+.btn5:hover{
+    background-color: rgb(23, 94, 247);
+}
+
+.psplus{
+    width: 120px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.psplush4{
+    font-size: 20px;
+    font-weight: 300;
+    padding: 15px;
+}
+
+.psplusp{
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.psplusinp{
+    background-color: rgb(209, 58, 3);
+    color: white;
+    border: solid 2px rgb(216, 216, 216);
+    border-radius: 25px;
+    padding: 8px;
+}
+
+.btn6{
+    border-radius: 25px;
+    width: fit-content;
+    padding: 2px;
+    margin: 15px 129px;
+}
+
+.btn6:hover{
+    background-color:  rgb(209, 58, 3);
+}
+
+.p4{
+    text-align: center;
+    font-size: 8px;
+    font-weight: 650;
+    margin-bottom: 60px;
+}
+
+.background4{
+    background-color:  rgb(9, 52, 145);    
+    
+}
+
+.psstorelogo{
+    width: 40px;
+    display: block;
+    margin-left: auto;
+    
+}
+
+.h34{
+    margin-right: 560px;
+    font-weight: 300;
+    color: rgb(212, 212, 212);
+    
+}
+
+.PST{
+    display: flex;
+    padding-top: 80px;
+    
+    
+}
+
+.p5{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    color:  rgb(212, 212, 212);
+}
+
+.p6{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    color: white;
+    margin-top: 20px;
+}
+
+.consoleimg{
+    margin-top: 80px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 620px;
+
+}
+
+.p7{
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+    font-size: 12;
+    font-weight: 300;
+}
+
+.twoinput{
+    margin-top: 20px;
+    display: flex;
+    margin-left: 370px;
+    padding-bottom: 60px;
+    
+
+}
+
+.button1{
+    background-color: white;
+    border-radius: 30px;
+    padding: 7px;
+    border: solid 2px rgb(9, 52, 145) ;
+    font-weight: 600;
+}
+
+.but1{
+    
+    border-radius: 30px;
+    padding: 2px;
+    width: fit-content;
+    margin-right: 15px;
+}
+
+.but1:hover{
+    background-color: white;
+}
+
+.button2{
+    background-color:  rgb(23, 94, 247);
+    border-radius: 20px;
+    padding: 7px;
+    border: solid 2px rgb(9, 52, 145) ;
+    color: white;
+    font-weight: 700;
+    font-size: 14;
+}
+
+.but2{
+    
+    border-radius: 20px;
+    padding: 2px;
+    width: fit-content;
+    margin-right: 15px;
+}
+
+.but2:hover{
+    background-color:  rgb(23, 94, 247);
+}
+
+.psplusback{
+    background-color: rgb(206, 205, 205);
+    
+    
+}
+
+.h11{
+    text-align: center;
+    padding-top: 70px;
+    font-size: 40px;
+}
+
+.p8{
+    text-align: center;
+    font-size: 13px;
+    font-weight: 400;
+    padding-top: 8px;
+    letter-spacing: 0.7px;
+}
+
+
+
+.casediv{
+    display: flex;
+    padding-left: 200px;
+    padding-top: 80px;
+    
+}
+
+.case1{
+    
+    text-align: left;
+    margin-left: 10px;
+    
+}
+
+.case1img{
+    width: 235px;
+    border-radius: 5%;
+}
+.case1h4{
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.case1p{
+    padding-top: 20px;
+    font-size: 14px;
+    color: rgb(71, 71, 71);
+    font-weight: 300;
+}
+
+.case1desc{
+    font-size: 7px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.case2{
+    
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 40px;
+    
+}
+
+.case2img{
+    width: 235px;
+    border-radius: 5%;
+}
+.case2h4{
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.case2p{
+    padding-top: 49px;
+    font-size: 14px;
+    color: rgb(71, 71, 71);
+    font-weight: 300;
+}
+
+.case2desc{
+    font-size: 7px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.case3{
+    
+    text-align: left;
+    padding-left: 50px;
+    
+}
+
+.case3img{
+    width: 235px;
+    border-radius: 5%;
+}
+.case3h4{
+    padding-top: 20px;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.case3p{
+    padding-top: 49px;
+    font-size: 14px;
+    color: rgb(71, 71, 71);
+    font-weight: 300;
+}
+
+.case3desc{
+    font-size: 7px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.casebtn{
+    
+    background-color: rgb(23, 94, 247);
+    border-radius: 35px;
+    color: white;
+    padding: 7px;
+    font-weight: 500;
+    font-size: 15px;
+    border: solid 2px rgb(206, 205, 205);
+}
+
+.casebtndiv{
+    margin-top: 30px;
+    margin-left: 44%;
+    border-radius: 35px;
+    width: fit-content;
+    padding: 2px;
+}
+
+.casebtndiv:hover{
+    background-color: rgb(23, 94, 247);
+}
+
+.casep{
+    text-align: center;
+    font-size: 7px;
+    font-weight: 700;
+    margin-top: 20px;
+    padding-bottom: 70px;
+}
+
+.Gift{
+    background: url(im/2.jpg) no-repeat;
+    margin-top: px;
+    height: 1000px;
+    width: 1203px;
+    padding-top: 200px;
+    padding-left: 100px;
+    
+}
+
+.divgift{
+    background-color: rgb(24, 24, 24);
+    width: fit-content;
+    padding: 30px;
+}
+
+.h3gift{
+    color: white;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.pgift{
+    color: rgb(136, 136, 136);
+    font-size: 13px;
+    padding-top: 20px;
+    font-weight: 400;
+}
+
+.btngift{
+    background-color: rgb(209, 58, 3);
+    color: white;
+    border-radius: 35px;
+    padding: 8px;
+    border: solid 2px rgb(24, 24, 24);
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.inptdivgift{
+    margin-top: 25px;
+    width: fit-content;
+    border-radius: 35px;
+    padding: 2px;
+}
+
+.inptdivgift:hover{
+    background-color: rgb(209, 58, 3);
+}
+
+.divdivert{
+    text-align: center;
+}
+
+.h2divert{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.pdivert{
+    font-size: 13px;
+    color: rgb(102, 102, 102);
+    padding-top: 20px;
+}
+
+.imgdivert{
+    width: 500px;
+    padding-top: 60px;
+}
+
+.p2divert{
+    font-size: 16px;
+    font-weight: 300;
+    padding-top: 40px;
+}
+
+.btndivert{
+    background-color: rgb(23, 94, 247);
+    color: white;
+    border-radius: 35px;
+    border: solid 2px white;
+    padding: 6px;
+    
+}
+
+.divinptdivert{
+    
+    width: fit-content;
+    border-radius: 35px;
+    padding: 2px;
+    margin-left: 42%;
+    margin-top: 30px;
+}
+
+.divinptdivert:hover{
+    background-color: rgb(23, 94, 247);
+}
+
+.p3divert{
+    font-size: 12px;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.footercolor{
+    background-color: rgb(23, 94, 247);
+}
+
+.pfooter{
+    color: white;
+}
+
+.liste1h5{
+    color: white;
+}
+
+.liste1 li{
+    color: white;
+    font-size: 7px;
+}
+
